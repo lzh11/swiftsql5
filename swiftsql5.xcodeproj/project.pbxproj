@@ -20,7 +20,7 @@
 		4104CD021D2F3D43009C7B50 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104CCFF1D2F3D43009C7B50 /* String-Extras.swift */; };
 		4104CD041D2F3D4A009C7B50 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 4104CD031D2F3D4A009C7B50 /* data.db */; };
 		4104CD071D2F400E009C7B50 /* Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104CD061D2F400E009C7B50 /* Find.swift */; };
-		4104CD091D2F45B1009C7B50 /* Deletselect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104CD081D2F45B1009C7B50 /* Deletselect.swift */; };
+		4104CD091D2F45B1009C7B50 /* Deleteselect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104CD081D2F45B1009C7B50 /* Deleteselect.swift */; };
 		4104CD0B1D2F4930009C7B50 /* selectwhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104CD0A1D2F4930009C7B50 /* selectwhat.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +62,7 @@
 		4104CD031D2F3D4A009C7B50 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
 		4104CD051D2F3D64009C7B50 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		4104CD061D2F400E009C7B50 /* Find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Find.swift; sourceTree = "<group>"; };
-		4104CD081D2F45B1009C7B50 /* Deletselect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deletselect.swift; sourceTree = "<group>"; };
+		4104CD081D2F45B1009C7B50 /* Deleteselect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deleteselect.swift; sourceTree = "<group>"; };
 		4104CD0A1D2F4930009C7B50 /* selectwhat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectwhat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +124,7 @@
 				4104CCD01D2F3D17009C7B50 /* Main.storyboard */,
 				4104CD0A1D2F4930009C7B50 /* selectwhat.swift */,
 				4104CCD31D2F3D17009C7B50 /* Assets.xcassets */,
-				4104CD081D2F45B1009C7B50 /* Deletselect.swift */,
+				4104CD081D2F45B1009C7B50 /* Deleteselect.swift */,
 				4104CCD51D2F3D17009C7B50 /* LaunchScreen.storyboard */,
 				4104CCD81D2F3D17009C7B50 /* Info.plist */,
 				4104CD051D2F3D64009C7B50 /* Header.h */,
@@ -296,7 +296,7 @@
 				4104CD001D2F3D43009C7B50 /* SQLiteDB.swift in Sources */,
 				4104CD011D2F3D43009C7B50 /* SQLTable.swift in Sources */,
 				4104CCCF1D2F3D17009C7B50 /* ViewController.swift in Sources */,
-				4104CD091D2F45B1009C7B50 /* Deletselect.swift in Sources */,
+				4104CD091D2F45B1009C7B50 /* Deleteselect.swift in Sources */,
 				4104CD071D2F400E009C7B50 /* Find.swift in Sources */,
 				4104CCCD1D2F3D17009C7B50 /* AppDelegate.swift in Sources */,
 				4104CD0B1D2F4930009C7B50 /* selectwhat.swift in Sources */,
@@ -528,6 +528,7 @@
 				4104CCF31D2F3D17009C7B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4104CCF41D2F3D17009C7B50 /* Build configuration list for PBXNativeTarget "swiftsql5Tests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +537,7 @@
 				4104CCF61D2F3D17009C7B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4104CCF71D2F3D17009C7B50 /* Build configuration list for PBXNativeTarget "swiftsql5UITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +546,7 @@
 				4104CCF91D2F3D17009C7B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
